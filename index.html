@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=PT+Serif:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Контакты Института</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__nav">
+                <a href="#"><img src="icons/logo.svg" alt="" class="header__logo"></a>
+                <ul class="header__navigation">
+                    <li class="header__navigation-item"><a href="#" class="header__navigation-link">Что такое AQ?</a>
+                    </li>
+                    <li class="header__navigation-item"><a href="#" class="header__navigation-link">Об Институте</a>
+                    </li>
+                    <li class="header__navigation-item"><a href="#" class="header__navigation-link">AQ-Education</a>
+                    </li>
+                    <li class="header__navigation-item"><a href="#" class="header__navigation-link">Календарь
+                            событий</a>
+                    </li>
+                    <li class="header__navigation-item"><a href="#" class="header__navigation-link">AQ-Лидеры</a></li>
+                    <li class="header__navigation-item"><a href="#" class="header__navigation-link">Материалы</a></li>
+                    <li class="header__navigation-item"><a href="#" class="header__navigation-link">Контакты</a></li>
+                </ul>
+
+                <div class="header__wrapper">
+
+                    <form class="header__search-form">
+                        <input type="search" placeholder="Поиск..." class="header__search-input">
+                        <button class="header__search-button m-hidden"><img src="icons/search_dark.svg"
+                                alt="search"></button> 
+                        <button class="header__search-button-m m-visible"><img src="icons/search_light.svg"
+                                alt="search"></button>   <!-- перенес сюда кнопку чтобы прижать лупу вправо--> 
+                    </form>
+
+                    <button class="header__profile-button m-hidden">Личный Кабинет</button>
+                    
+                    <button class="header__profile-button-m m-visible"><img src="icons/profile_icon.svg"
+                            alt="profile"></button>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </header>
+
+    <section class="contacts">
+        <div class="container">
+            <h2 class="title">Контакты Института</h2>
+
+            <!-- <div class="contacts__wrapper">
+                <div class="contacts__item">
+                    <div class="contacts__subtitle">Контактный центр</div>
+                    <a href="tel:+74993215900" class="contacts__descr">+7 499 321 59 00</a>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__subtitle">Электронная почта</div>
+                    <a href="mailto:info@aqinstitute.com" class="contacts__descr">info@aqinstitute.com</a>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__subtitle">PR-отдел</div>
+                    <a href="mailto:info@aqinstitute.com" class="contacts__descr">info@aqinstitute.com</a>
+                </div>
+                <div class="contacts__item">
+                    <div class="contacts__subtitle">Отдел корпоративных проектов</div>
+                    <a href="mailto:client@aqinstitute.com" class="contacts__descr">client@aqinstitute.com</a>
+                </div>
+            </div> -->
+
+            <div class="row">
+                <div class="col-6 col-md-3 col-lg-2">
+                    <div class="contacts__item">
+                        <div class="contacts__subtitle">Контактный центр</div>
+                        <a href="tel:+74993215900" class="contacts__descr">+7 499 321 59 00</a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-2 offset-lg-1">
+                    <div class="contacts__item">
+                        <div class="contacts__subtitle">Электронная почта</div>
+                        <a href="mailto:info@aqinstitute.com" class="contacts__descr">info@aqinstitute.com</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-2 offset-lg-1">
+                    <div class="contacts__item">
+                        <div class="contacts__subtitle">PR-отдел</div>
+                        <a href="mailto:info@aqinstitute.com" class="contacts__descr">info@aqinstitute.com</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 offset-lg-1">
+                    <div class="contacts__item">
+                        <div class="contacts__subtitle">Отдел корпоративных проектов</div>
+                        <a href="mailto:client@aqinstitute.com" class="contacts__descr">client@aqinstitute.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="container">
+            <iframe src="https://yandex.ru/map-widget/v1/?ll=65.017874%2C40.520695&z=3.03" width="560" height="400"
+                frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+        </div>
+    </section>
+
+    <section class="cooperation">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h2 class="title">Сотрудничество</h2>
+                    <div class="cooperation__subtitle">По каким вопросам мы можем быть полезны друг другу, заполните
+                        форму и мы с вами свяжемся</div>
+                    <ul class="cooperation__list">
+                        <li class="cooperation__list-item">Вы исследователь, кандидат или доктор наук. Совместные
+                            научные статьи; гранты на исследования</li>
+                        <li class="cooperation__list-item">Вы можете помочь с набором или обработкой статистических
+                            данных; проводить интервью с респондентами</li>
+                        <li class="cooperation__list-item">Вы эксперт или дурналист и можете стать автором редакционных
+                            материалов, дайджестов и рейтингов</li>
+                        <li class="cooperation__list-item">Вы переводчик, можете адаптировать наши материалы на
+                            английский и другие языки</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 offset-lg-1">
+                    <form id="cooperation-form" class="feed-form" action="#">
+                        <div class="feed-form__wrapper">Ваше Имя<input name="name" class="feed-form__input"
+                                placeholder="Марина" type="text"></div>
+                        <div class="feed-form__wrapper">Ваша профессия<input name="profession" class="feed-form__input"
+                                placeholder="Журналист" type="text"></div>
+                        <div class="feed-form__wrapper">Email<input name="email" class="feed-form__input"
+                                placeholder="test@example.com" type="email"></div>
+                        <div class="feed-form__wrapper">Телефон<input name="phone" class="feed-form__input"
+                                placeholder="+7 (922) 000 88 22" type="tel"></div>
+
+                        <label class="feed-form__agreement" for="agree">
+                            <input type="checkbox" class="feed-form__checkbox" id="agree">
+                            <div>Я соглашаюсь с условиями <a href="#" class="feed-form__link">Пользовательского
+                                    соглашения и Политикой
+                                    конфиденциальности</a></div>
+                        </label>
+
+                        <button class="feed-form__button">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <div class="footer__logo-wrapper">
+                        <a href="#" class="footer__logo"><img src="icons/logo_big.svg" alt=""></a>
+                        <div class="footer__logo-descr xs-hidden">АНО Институт <br>
+                            Адаптивного <br> Интеллекта </div>
+                        <div class="footer__logo-descr xs-visible">АНО «Институт Адаптивного Интеллекта»</div>
+                    </div>
+
+                    <ul class="footer__documents xs-hidden">
+                        <li class="footer__documents-item"><a href="#" class="footer__documents-link">Договор оферты</a>
+                        </li>
+                        <li class="footer__documents-item"><a href="#" class="footer__documents-link">Политика
+                                конфиденциальности</a></li>
+                        <li class="footer__documents-item"><a href="#" class="footer__documents-link">Сведения об
+                                образовательной
+                                организации</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-2">
+                    <ul class="footer__info">
+                        <li class="footer__info-item"><a href="#" class="footer__info-link">Что такое AQ?</a></li>
+                        <li class="footer__info-item"><a href="#" class="footer__info-link">Об Институте</a></li>
+                        <li class="footer__info-item"><a href="#" class="footer__info-link">Календарь событий</a></li>
+                        <li class="footer__info-item"><a href="#" class="footer__info-link">AQ-Лидеры</a></li>
+                        <li class="footer__info-item"><a href="#" class="footer__info-link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 offset-sm-1 col-md-3 offset-md-0 col-lg-2">
+                    <div class="footer__education-descr">AQ-Education</div>
+                    <ul class="footer__education-list">
+                        <li class="footer__education-item"><a href="#" class="footer__education-link">Школа
+                                Адаптивности</a></li>
+                        <li class="footer__education-item"><a href="#" class="footer__education-link">AQ-коучинг</a>
+                        </li>
+                        <li class="footer__education-item"><a href="#"
+                                class="footer__education-link">AQ-бизнес-коучинг</a></li>
+                        <li class="footer__education-item"><a href="#"
+                                class="footer__education-link">Project-менеджмент</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 offset-lg-1">
+                    <div class="footer__contacts-wrapper">
+                        <div class="footer__phone"><a href="tel:+79161673735" class="footer__phone-link">+7 916 167 37
+                                35</a></div>
+
+                        <div class="footer__descr">Мы в социальных сетях</div>
+                        <div class="footer__social-wrapper">
+                            <a href="#" class="footer__social-link"><img src="icons/telegram.svg" alt="telegram"
+                                    class="footer__social-img"></a>
+                            <a href="#" class="footer__social-link"><img src="icons/vk.svg" alt="vk"
+                                    class="footer__social-img"></a>
+                            <a href="#" class="footer__social-link"><img src="icons/youtube.svg" alt="youtube"
+                                    class="footer__social-img"></a>
+                        </div>
+
+                        <form action="#" class="footer__subscribe-form">
+                            <div class="footer__descr">Подписаться на новости:</div>
+                            <input type="email" name="email" class="footer__subscribe-input">
+                            <button class="footer__subscribe-button">Подписаться</button>
+                        </form>
+
+                        <div class="footer__address">Юридический адрес:</div>
+
+                        <ul class="footer__documents xs-visible">
+                            <li class="footer__documents-item"><a href="#" class="footer__documents-link">Договор оферты</a>
+                            </li>
+                            <li class="footer__documents-item"><a href="#" class="footer__documents-link">Политика
+                                    конфиденциальности</a></li>
+                            <li class="footer__documents-item"><a href="#" class="footer__documents-link">Сведения об
+                                    образовательной
+                                    организации</a></li>
+                        </ul>
+
+
+                        <div class="footer__license">На сайте использованы иллюстрации, сгенерированные с помощью
+                            платного
+                            сервиса Midjourney (Creative Commons Noncommercial 4.0 Attribution International License)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

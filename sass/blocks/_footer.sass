@@ -1,0 +1,114 @@
+.footer
+    min-height: 310px 
+    padding: 60px 0 30px 0  
+    background-color: #001228
+    font-family: "Nunito Sans", sans-serif  
+    &__logo
+        display: flex
+        &-descr 
+            margin-top: 11px
+            font-weight: 400
+            font-size: 17px
+            line-height: 120%
+            color: #fff
+    &__documents
+        margin: 0
+        padding: 0
+        margin-top: 10px
+        list-style-type: none
+        &-link
+            font-weight: 400
+            font-size: 12px
+            color: #b49f94
+            text-decoration: none
+
+    &__info
+        margin: 0
+        padding: 0
+        list-style-type: none
+        &-link
+            font-weight: 400
+            font-size: 17px
+            color: #fff
+            line-height: 31px
+            text-decoration: none
+
+    &__education
+        &-descr
+            font-weight: 700
+            font-size: 17px
+            color: #fff
+            line-height: 31px
+        &-list
+            margin: 0
+            padding: 0
+            list-style-type: none
+        &-item
+            display: flex
+            align-items: center
+            &::before
+                content: "●"                
+                color: white
+                font-size: 7px
+                margin-right: 12px                
+        &-link
+            font-weight: 400
+            font-size: 17px
+            color: #fff
+            line-height: 31px
+            text-decoration: none
+        
+    &__phone
+        &-link
+            font-weight: 700
+            font-size: 20px
+            color: #fff 
+            // line-height: 31px
+            text-decoration: none
+    &__descr
+        font-weight: 400
+        font-size: 17px
+        color: #fff
+        line-height: 31px
+    &__social
+        &-link
+           margin-right: 8px        
+           &:last-child
+            margin-right: 0                
+        &-img
+            &:hover 
+                box-shadow: 0px 2px 0px #ffffff     
+    &__subscribe
+        &-form
+            margin-top: 18px
+        &-input
+            border: none
+            border-radius: 3px
+            outline: none
+            width: 197px
+            height: 30px
+            background-color: #ddd7d2
+        &-button
+            border: none
+            border-radius: 5px
+            width: 104px
+            height: 30px
+            background: linear-gradient(180deg, #e1d6ce 0%, #95796b 100%)
+            font-weight: 600
+            font-size: 13px
+            text-align: center
+            color: #001228
+            &:hover 
+                font-size: 14px
+                box-shadow: 0px 0px 20px #ffffff
+    &__address
+        display: none
+    
+    &__license
+        font-family: "Noto Serif", serif
+        margin-top: 38px
+        max-width: 288px
+        font-weight: 600
+        font-size: 8px
+        color: #828282
+
